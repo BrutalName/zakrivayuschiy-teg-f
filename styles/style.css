@@ -25,8 +25,8 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: Arial, sans-serif;
-  font-weight: var(--font-wght);
+  font-family: var(--PressStart2P), Arial, sans-serif;
+  font-variation-settings: 'wght' var(--font-wght), 'slnt' 0;
   background-image: 
     repeating-linear-gradient(#d3d3d3, transparent 2px), 
     repeating-linear-gradient(90deg,#d3d3d3, transparent 2px),
@@ -38,7 +38,7 @@
 
 .button {
   border: 2px solid var(--border-color);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--PressStart2P), Arial, sans-serif;
   appearance: none;
   cursor: pointer;
   background-color: transparent;
@@ -109,7 +109,8 @@
   margin-block: 7px 5px;
   font-size: 18px;
   line-height: 115%;
-  font-weight: var(--font-wght-titles);
+  font-family: var(--Inter), Arial, sans-serif;
+  font-variation-settings: 'wght' var(--font-wght-titles), 'slnt' 0;
 }
 
 .content-img-conteiner {
@@ -118,7 +119,7 @@
 
 .content-img-conteiner::after {
   content: var(--filter-content, "</HTML>");
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--PressStart2P), Arial, sans-serif;
   font-size: 14px;
   position: absolute;
   top: 25px;
@@ -147,6 +148,8 @@
   margin-inline: 25px;
   font-size: 18px;
   line-height: 21px;
+  font-family: var(--Inter), Arial, sans-serif;
+  font-variation-settings: 'wght' var(--font-wght), 'slnt' 0;
 }
 
 .like-conteiner {
@@ -341,42 +344,6 @@
     transition: opacity 0.3s 0.06s, fill 0.3s 0.06s;
     fill: var(--heart-color-like);
     opacity: 1;
-  }
-}
-
-@supports (font-variation-settings:normal) {
-  .page {
-    font-family: var(--PressStart2P), Arial, sans-serif;
-  }
-
-  .content__title {
-    font-family: var(--Inter), Arial, sans-serif;
-    font-variation-settings: 'wght' var(--font-wght-titles), 'slnt' 0;
-  }
-
-  p {
-    font-family: var(--Inter), Arial, sans-serif;
-    font-variation-settings: 'wght' var(--font-wght), 'slnt' 0;
-  }
-
-  .button {
-    font-family: var(--PressStart2P), Arial, sans-serif;
-  }
-
-  .header {
-    font-family: var(--PressStart2P), Arial, sans-serif;
-  }
-
-  .header__text {
-    font-family: var(--PressStart2P), Arial, sans-serif;
-  }
-
-  .content-img-conteiner::after {
-    font-family: var(--PressStart2P), Arial, sans-serif;
-  }
-
-  .dialog-close[open] .dialog-close-text {
-    font-family: var(--PressStart2P), Arial, sans-serif;
   }
 }
 
