@@ -1,1 +1,59 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --Inter: 'Inter-Variable';
+    --PressStart2P: 'PressStart2P-Regular';
+    --font-wght: 400;
+    --font-wght-titles: 700;
+    --text-shadow: rgba(255, 255, 255, 0.5);
+    --button__text-color: rgb(255, 255, 255);
+    --border-color: rgba(0, 0, 0, 1);
+    --hover-color: rgba(0, 0, 0, 1);
+    --heart-color: rgba(0, 0, 0, 1);
+    --heart-color-like: red;
+    --page-color: rgba(231, 231, 231, 1);
+    --content-bg-color: rgb(255, 255, 255);
+    --page__margin-inline: clamp(0px, -8.9295rem + 36.6337vw, 370px);
+    --header__title-font-size: clamp(49px, 2.6764rem + 1.5842vw, 65px);
+    --header__text-font-size: clamp(14px, 0.6578rem + 0.8911vw, 23px);
+    --header__padding-block: clamp(120px, 7.3069rem + 0.7921vw,128px);
+    --content-mark__position-right: clamp(13px, 0.5229rem + 1.1881vw, 25px);
+    --button-save__margin-inline: clamp(35px, -2.1759rem + 17.9012vw, 180px);
+    --dialog-close-padding-inline: clamp(30px , 2.9861rem + -1.4815vw, 42px);
+    --button-save-svg-size: clamp(21px, 1.9606rem + -0.8642vw, 28px);
+}
+
+.filter-brightness {
+    --filter: brightness(50%);
+    --filter-content: "</HTML>";
+}
+
+.filter-saturate {
+    --filter: saturate(150%);
+    --filter-content: "<css>";
+}
+
+.filter-contrast {
+    --filter: contrast(40%);
+    --filter-content: "<desigions>";
+}
+
+.filter-invert {
+    --filter: invert(100%);
+    --filter-content: "care";
+}
+
+.filter-sepia {
+    --filter: sepia(100%);
+    --filter-content: "<support>";
+}
+
+.filter-blur {
+    --filter: blur(8px);
+    --filter-content: "<lifes-style: none;>";
+}
+
+.filter-blur-contrast {
+    --filter: blur(1px) grayscale(50%);
+    --filter-content: "<experience>";
+}
