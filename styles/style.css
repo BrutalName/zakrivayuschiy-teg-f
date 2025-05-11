@@ -64,7 +64,6 @@
 }
 
 .header {
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,7 +258,6 @@
   .dialog-close-text {
     line-height: 150%;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
   }
 
@@ -348,32 +346,37 @@
 
 @supports (font-variation-settings:normal) {
   .page {
+    font-family: var(--PressStart2P), Arial, sans-serif;
+  }
+
+  .content__title {
+    font-family: var(--Inter), Arial, sans-serif;
+    font-variation-settings: 'wght' var(--font-wght-titles), 'slnt' 0;
+  }
+
+  p {
     font-family: var(--Inter), Arial, sans-serif;
     font-variation-settings: 'wght' var(--font-wght), 'slnt' 0;
   }
 
   .button {
     font-family: var(--PressStart2P), Arial, sans-serif;
-    font-variation-settings: 'wght' var(--font-wght);
   }
 
   .header {
     font-family: var(--PressStart2P), Arial, sans-serif;
-    font-variation-settings: 'wght' var(--font-wght);
   }
 
-  .content__title {
-    font-variation-settings: 'wght' var(--font-wght-titles), 'slnt' 0;
+  .header__text {
+    font-family: var(--PressStart2P), Arial, sans-serif;
   }
 
   .content-img-conteiner::after {
     font-family: var(--PressStart2P), Arial, sans-serif;
-    font-variation-settings: 'wght' var(--font-wght);
   }
 
   .dialog-close[open] .dialog-close-text {
     font-family: var(--PressStart2P), Arial, sans-serif;
-    font-variation-settings: 'wght' var(--font-wght);
   }
 }
 
