@@ -354,10 +354,12 @@
 
   .button {
     font-family: var(--PressStart2P), Arial, sans-serif;
+    font-variation-settings: 'wght' var(--font-wght);
   }
 
   .header {
     font-family: var(--PressStart2P), Arial, sans-serif;
+    font-variation-settings: 'wght' var(--font-wght);
   }
 
   .content__title {
@@ -366,11 +368,12 @@
 
   .content-img-conteiner::after {
     font-family: var(--PressStart2P), Arial, sans-serif;
-    font-variation-settings: 'wght' var(--font-wght), 'slnt' 0;
+    font-variation-settings: 'wght' var(--font-wght);
   }
 
   .dialog-close[open] .dialog-close-text {
     font-family: var(--PressStart2P), Arial, sans-serif;
+    font-variation-settings: 'wght' var(--font-wght);
   }
 }
 
