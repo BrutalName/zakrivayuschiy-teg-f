@@ -51,7 +51,7 @@
               </button>
               <button type="button" class="button card__like-button">
                 <span class="button__text button-like-text">
-                  Like
+                  <p>Like</p>
                 </span>
               </button>
             </div>
@@ -87,7 +87,7 @@
               </button>
               <button type="button" class="button card__like-button">
                 <span class="button__text button-like-text">
-                  Like
+                  <p>Like</p>
                 </span>
               </button>
             </div>
@@ -123,7 +123,7 @@
               </button>
               <button type="button" class="button card__like-button">
                 <span class="button__text button-like-text">
-                  Like
+                  <p>Like</p>
                 </span>
               </button>
             </div>
@@ -159,7 +159,7 @@
               </button>
               <button type="button" class="button card__like-button">
                 <span class="button__text button-like-text">
-                  Like
+                  <p>Like</p>
                 </span>
               </button>
             </div>
@@ -195,7 +195,7 @@
               </button>
               <button type="button" class="button card__like-button">
                 <span class="button__text button-like-text">
-                  Like
+                  <p>Like</p>
                 </span>
               </button>
             </div>
@@ -231,7 +231,7 @@
               </button>
               <button type="button" class="button card__like-button">
                 <span class="button__text button-like-text">
-                  Like
+                  <p>Like</p>
                 </span>
               </button>
             </div>
@@ -267,7 +267,7 @@
               </button>
               <button type="button" class="button card__like-button">
                 <span class="button__text button-like-text">
-                  Like
+                  <p>Like</p>
                 </span>
               </button>
             </div>
@@ -303,7 +303,7 @@
               </button>
               <button type="button" class="button card__like-button">
                 <span class="button__text button-like-text">
-                  Like
+                  <p>Like</p>
                 </span>
               </button>
             </div>
@@ -319,25 +319,31 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="button-save-svg">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
-        <p class="button__text button-save-text">
-          Сохранить на память
-        </p>
+        <span class="button__text button-save-text">
+          <p>
+            Сохранить на память
+          </p>
+        </span>
       </button>
       <dialog id="dialog-save" class="dialog-close">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="dialog-close-svg">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text dialog-close-text">
-          Вставьте дискету, чтобы продолжить
+          <p>
+            Вставьте дискету, чтобы продолжить
+          </p>
         </span>
         <button
         class="button button-close"
         type="button"            
         onclick="window['dialog-save'].close();"
         >
-          <p class="button__text">
-            ок
-          </p>
+          <span class="button__text">
+            <p>
+              ок
+            </p>
+          </span>
         </button>
       </dialog>
     </main>

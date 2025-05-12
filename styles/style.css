@@ -27,12 +27,9 @@
 
 .button {
   border: 2px solid var(--borders-color, black);
-  font-family: var(--page-font-family, Arial), sans-serif;
   appearance: none;
   cursor: pointer;
   background-color: transparent;
-  font-size: 14px;
-  line-height: 90%;
   box-shadow: 0 0 var(--button-box-shadow-color, black);
   transition:  linear 0.2s;
   padding: 0;
@@ -162,9 +159,6 @@
   display: flex;
   flex-direction: column;
   gap: 27px;
-}
-
-.content p {
   font-size: 18px;
   line-height: 21px;
   font-family: var(--content-font-family, Arial), sans-serif;
@@ -213,6 +207,9 @@
 
 .button__text {
   display: flex;
+  font-family: var(--page-font-family, Arial), sans-serif;
+  font-size: 14px;
+  line-height: 90%;
   justify-content: center;
   align-items: center;
   position: relative;
