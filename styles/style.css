@@ -231,7 +231,7 @@
 .button-save {
   background-color: var(--content-bg-color, white);
   padding-inline: 20px;
-  padding-block: 15px;
+  padding-block: 18px 12px;
   display: flex;
   flex-wrap: wrap;
   margin-block-end: 103px;
