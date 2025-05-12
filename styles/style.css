@@ -317,8 +317,7 @@
   transform: translateX(0);
 }
 
-.card__icon-button:hover, 
-.card__icon-button:focus-visible {
+.card__icon-button:hover {
   .core {
     transition: linear opacity 0.3s, linear fill 0.3s 0.03s;
     opacity: 1;
